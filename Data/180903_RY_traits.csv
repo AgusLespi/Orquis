@@ -1,0 +1,200 @@
+date,tree,orch_i,strat_h,orch_sp_paleo,loc,tree_id,strat_id,orch_id,orch_sp_nhoc,LA,LDM,LFM,LT,SLA,NFU,LLU,NL,fertile,habit1,habit2,habit1_txt,habit2_txt
+2017,66,110,1,Pleurothallis hystrix,RY,T11,E1,110,Pleurothallis hystrix,5.968,0.0441,0.38,0.756666667,135.3287982,,130,,0,1,3,Stemmed,Reptant
+2017,66,111,1,Stelis argentata,RY,T11,E1,111,Stelis argentata,18.397,0.1324,2.36,1.47,138.9501511,8,14.5,8,0,2,1,Ramicaule,Erect
+2017,66,112,1,Panmorphia cuspidata,RY,T11,E1,112,Lankesteriana cuspidata,2.02,0.0079,0.008,0.455,255.6962025,30,3.1,30,1,2,1,Ramicaule,Erect
+2017,66,113,1,Panmorphia cuspidata,RY,T11,E1,113,Lankesteriana cuspidata,2.686,0.0123,0.022,0.703333333,218.3739837,15,3,15,1,2,1,Ramicaule,Erect
+2017,66,114,1,Panmorphia cuspidata,RY,T11,E1,114,Lankesteriana cuspidata,2.574,0.013,0.018,0.49,198,11,3,11,1,2,1,Ramicaule,Erect
+2017,66,115,1,Epidendrum RY,RY,T11,E1,115,Epidendrum RY,7.074,0.0675,0.39,0.593333333,104.8,6,150,6,1,,,,
+2017,66,116,6,Pleurothallis hystrix,RY,T11,E3,116,Pleurothallis hystrix,5.499,0.0523,0.51,1.06,105.1434034,5,24,5,1,2,1,Ramicaule,Erect
+2017,66,118,6,Mormolyca rufescens,RY,T11,E3,118,Mormolyca rufescens,36.54,0.4605,2.15,0.563333333,79.3485342,8,22.7,4,0,3,1,Pseudobulbs_Single internode,Erect
+2017,66,119,6,Stelis spathulata,RY,T11,E3,119,Stelis spathulata,5.739,0.0666,0.62,1.346666667,86.17117117,11,12.5,11,0,2,1,Ramicaule,Erect
+2017,66,120,6,Stelis spathulata,RY,T11,E3,120,Stelis spathulata,2.001,0.0231,0.14,0.756666667,86.62337662,18,8,18,1,2,1,Ramicaule,Erect
+2017,66,122,3,Stelis spathulata,RY,T11,E2,122,Stelis spathulata,0.995,0.0093,0.06,0.666666667,106.9892473,7,9,7,0,1,3,Stemmed,Reptant
+2017,66,123,3,Stelis spathulata,RY,T11,E2,123,Stelis spathulata,1.421,0.0176,0.08,0.706666667,80.73863636,5,6.5,5,1,2,1,Ramicaule,Erect
+2017,66,124,3,Stelis spathulata,RY,T11,E2,124,Stelis spathulata,1.574,0.0132,0.08,0.606666667,119.2424242,8,7,8,1,2,1,Ramicaule,Erect
+2017,66,125,3,Maxillaria ramosa,RY,T11,E2,125,Maxillaria ochracea,15.459,0.0997,0.92,0.656666667,155.0551655,6,8,6,1,2,1,Ramicaule,Erect
+2017,66,126,3,Stelis sp.1,RY,T11,E2,126,Stelis sp.1,1.585,0.0123,0.11,0.7,128.8617886,2,120,30,2,3,2,Pseudobulbs_Single internode,Scandent
+2017,66,127,3,Stelis sp.1,RY,T11,E2,127,Stelis sp.1,1.779,0.0168,0.15,1.083333333,105.8928571,10,5,10,0,2,1,Ramicaule,Erect
+2017,66,128,3,Pleurothallis hystrix,RY,T11,E2,128,Pleurothallis hystrix,5.102,0.0415,0.37,0.936666667,122.939759,8,7.5,8,0,2,1,Ramicaule,Erect
+2017,66,129,11,Oncidium adelaide,RY,T11,E5,129,Oncidium adelaide,23.734,0.2817,1.34,0.65,84.25275115,11,23,4,0,3,1,Pseudobulbs_Single internode,Erect
+2017,66,130,11,Mormolyca rufescens,RY,T11,E5,130,Mormolyca rufescens,16.987,0.2899,1.06,0.66,58.59606761,7,15,7,0,3,1,Pseudobulbs_Single internode,Erect
+2017,66,131,11,Mormolyca rufescens,RY,T11,E5,131,Mormolyca rufescens,24.403,0.2926,1.15,0.55,83.40054682,10,21,10,0,3,1,Pseudobulbs_Single internode,Erect
+2017,66,132,11,Mormolyca rufescens,RY,T11,E5,132,Mormolyca rufescens,13.154,0.1971,0.79,0.623333333,66.7376966,7,10.5,7,0,3,1,Pseudobulbs_Single internode,Erect
+2017,66,133,11,Stelis argentata,RY,T11,E5,133,Stelis argentata,3.284,0.0288,0.38,1.29,114.0277778,9,7,9,0,2,1,Ramicaule,Erect
+2017,66,134,11,Stelis argentata,RY,T11,E5,134,Stelis argentata,5.599,0.0938,0.83,1.706666667,59.69083156,15,7.5,15,0,2,1,Ramicaule,Erect
+2017,66,136,11,Pleurothallis m2,RY,T11,E5,136,Pleurothallis tripterantha,5.706,0.1376,0.94,1.983333333,41.46802326,14,14.3,14,0,2,1,Ramicaule,Erect
+2017,66,137,11,Stelis spathulata,RY,T11,E5,137,Stelis spathulata,2.538,0.0293,0.18,0.793333333,86.62116041,30,15,30,1,2,1,Ramicaule,Erect
+2017,66,138,8,Stelis sp.2,RY,T11,E4,138,Stelis sp.2,2.017,0.0175,0.018,0.815,115.2571429,8,2,8,2,2,1,Ramicaule,Erect
+2017,66,140,8,Stelis sp.2,RY,T11,E4,140,Stelis sp.2,1.311,0.0092,0.01,0.576666667,142.5,7,1.7,7,2,2,1,Ramicaule,Erect
+2017,66,141,8,Stelis sp.2,RY,T11,E4,141,Stelis sp.2,1.465,0.0125,0.014,0.786666667,117.2,6,2,6,2,2,1,Ramicaule,Erect
+2017,66,142,8,Stelis spathulata,RY,T11,E4,142,Stelis spathulata,1.846,0.0189,0.12,0.796666667,97.67195767,11,6.6,11,0,2,1,Ramicaule,Erect
+2017,66,143,8,Stelis spathulata,RY,T11,E4,143,Stelis spathulata,1.019,0.0101,0.04,0.483333333,100.8910891,19,5.5,19,2,2,1,Ramicaule,Erect
+2017,66,144,8,Stelis spathulata,RY,T11,E4,144,Stelis spathulata,2.898,0.0278,0.21,0.833333333,104.2446043,11,8,11,2,2,1,Ramicaule,Erect
+2017,66,145,8,Stelis spathulata,RY,T11,E4,145,Stelis spathulata,3.524,0.0337,0.25,0.806666667,104.5697329,9,8.5,9,0,2,1,Ramicaule,Erect
+2017,66,146,8,Mormolyca rufescens,RY,T11,E4,146,Mormolyca rufescens,8.647,0.0878,0.4,0.456666667,98.48519362,8,11,5,0,3,1,Pseudobulbs_Single internode,Erect
+2017,65,147,10,Pleurothallis hystrix,RY,T10,E5,147,Pleurothallis hystrix,4.798,0.0381,0.34,0.796666667,125.9317585,7,9,7,0,1,3,Stemmed,Reptant
+2017,65,148,10,Stelis spathulata,RY,T10,E5,148,Stelis spathulata,1.97,0.0119,0.13,0.746666667,165.5462185,19,7.5,19,0,2,1,Ramicaule,Erect
+2017,65,149,10,Stelis argentata,RY,T10,E5,149,Stelis argentata,13.238,0.0803,0.97,0.863333333,164.856787,16,16,16,0,2,1,Ramicaule,Erect
+2017,65,150,10,Maxillaria ramosa,RY,T10,E5,150,Maxillaria ochracea,20.144,0.1298,1.6,0.76,155.192604,1,17.5,5,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,65,152,10,Oncidium adelaide,RY,T10,E5,152,Oncidium adelaide,8.302,0.0357,0.2,0.226666667,232.5490196,1,13,5,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,65,153,10,Maxillaria fritzii,RY,T10,E5,153,Maxillaria fritzii,24.6,0.1501,1.71,3.546666667,163.8907395,8,11.5,6,0,3,1,Pseudobulbs_Single internode,Erect
+2017,65,154,10,Maxillaria ramosa,RY,T10,E5,154,Maxillaria ochracea,24.476,0.2077,1.98,0.806666667,117.8430429,1,27,7,0,3,1,Pseudobulbs_Single internode,Erect
+2017,65,156,10,Pleurothallis hystrix,RY,T10,E5,156,Pleurothallis hystrix,4.464,0.0474,0.46,1.11,94.17721519,2,41,2,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,65,157,10,Pleurothallis hystrix,RY,T10,E5,157,Pleurothallis hystrix,4.26,0.0315,0.34,0.896666667,135.2380952,4,50,4,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,65,158,10,Epidendrum porpax,RY,T10,E5,158,Epidendrum porpax,2.16,0.0161,0.27,1.52,134.1614907,1,17,1,0,4,2,Leafy stem,Scandent
+2017,65,159,10,Epidendrum porpax,RY,T10,E5,159,Epidendrum porpax,1.852,0.0178,0.27,1.776666667,104.0449438,1,4.5,1,0,4,2,Leafy stem,Scandent
+2017,65,160,10,Epidendrum porpax,RY,T10,E5,160,Epidendrum porpax,1.281,0.0131,0.17,1.553333333,97.78625954,1,5,1,0,4,2,Leafy stem,Scandent
+2017,65,161,3,Oncidium adelaide,RY,T10,E2,161,Oncidium adelaide,28.204,0.159,0.81,0.28,177.3836478,7,20,7,0,3,1,Pseudobulbs_Single internode,Erect
+2017,65,162,3,Campylocentrum micranthum,RY,T10,E2,162,Campylocentrum micranthum,1.662,0.015,0.11,0.87,110.8,1,38,1,1,4,2,Leafy stem,Scandent
+2017,65,163,3,Campylocentrum micranthum,RY,T10,E2,163,Campylocentrum micranthum,2.016,0.0237,0.15,0.936666667,85.06329114,1,14,1,1,4,2,Leafy stem,Scandent
+2017,65,164,3,Campylocentrum micranthum,RY,T10,E2,164,Campylocentrum micranthum,1.586,0.0162,0.11,0.81,97.90123457,1,19,1,1,4,2,Leafy stem,Scandent
+2017,65,165,1,Campylocentrum micranthum,RY,T10,E1,165,Campylocentrum micranthum,2.244,0.0206,0.14,0.796666667,108.9320388,1,45.5,1,0,4,2,Leafy stem,Scandent
+2017,70,166,10,Stelis spathulata,RY,T13,E5,166,Stelis spathulata,1.713,0.0194,0.1,0.57,88.29896907,15,12,15,1,2,1,Ramicaule,Erect
+2017,70,167,10,Stelis spathulata,RY,T13,E5,167,Stelis spathulata,2.3,0.0222,0.16,0.76,103.6036036,11,13.5,11,1,2,1,Ramicaule,Erect
+2017,70,169,10,Maxilaria,RY,T13,E5,169,Maxillaria,11.828,0.1267,0.97,0.85,93.35438043,,13,,0,,,,
+2017,70,171,10,Stelis spathulata,RY,T13,E5,171,Stelis spathulata,2.057,0.0256,0.16,0.703333333,80.3515625,11,11,11,0,2,1,Ramicaule,Erect
+2017,70,173,10,Stelis,RY,T13,E5,173,Stelis popayanensis,1.894,0.0238,0.23,1.386666667,79.57983193,7,7,7,0,2,1,Ramicaule,Erect
+2017,70,174,10,Stelis,RY,T13,E5,174,Stelis popayanensis,2.653,0.042,0.31,1.423333333,63.16666667,9,10,9,0,2,1,Ramicaule,Erect
+2017,70,175,10,Stelis,RY,T13,E5,175,Stelis popayanensis,2.366,0.0208,0.16,0.75,113.75,8,9.5,8,0,2,1,Ramicaule,Erect
+2017,70,177,10,Maxillaria ramosa,RY,T13,E5,177,Maxillaria ochracea,16.746,0.167,1.3,0.97,100.2754491,5,32,5,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,70,178,10,Stelis vulcanica,RY,T13,E5,178,Stelis vulcanica,22.139,0.2793,3.39,1.78,79.2660222,12,18.5,4,0,2,1,Ramicaule,Erect
+2017,70,180,10,Stelis sp2,RY,T13,E5,180,Stelis sp2,6.681,0.1335,0.9,1.79,50.04494382,10,18.5,10,0,2,1,Ramicaule,Erect
+2017,70,181,8,epidendrum porpax,RY,T13,E4,181,Epidendrum porpax,0.931,0.0106,0.14,1.69,87.83018868,1,9,1,0,4,2,Leafy stem,Scandent
+2017,70,182,3.5,Myoxanthus,RY,T13,E2,182,Myoxanthus affinis,7.543,0.083,0.67,0.996666667,90.87951807,9,18,5,0,2,1,Ramicaule,Erect
+2017,70,183,3.5,Stelis spathulata,RY,T13,E2,183,Stelis spathulata,2.608,0.0188,0.18,0.8,138.7234043,10,8,10,1,2,1,Ramicaule,Erect
+2017,70,184,3.5,Stelis spathulata,RY,T13,E2,184,Stelis spathulata,1.252,0.0074,0.06,0.563333333,169.1891892,8,6,8,0,2,1,Ramicaule,Erect
+2017,70,185,3.5,Stelis spathulata,RY,T13,E2,185,Stelis spathulata,2.383,0.0171,0.11,0.483333333,139.3567251,8,8,8,0,2,1,Ramicaule,Erect
+2017,70,186,3.5,Stelis spathulata,RY,T13,E2,186,Stelis spathulata,1.177,0.0093,0.07,0.723333333,126.5591398,8,6.5,8,0,2,1,Ramicaule,Erect
+2017,70,187,3.5,Stelis argentata,RY,T13,E2,187,Stelis argentata,14.542,0.03804,1.19,0.946666667,382.2818086,20,16.5,10,1,2,1,Ramicaule,Erect
+2017,70,188,3.5,Stelis argentata,RY,T13,E2,188,Stelis argentata,11.303,0.0991,0.8,0.786666667,114.0565086,12,13,7,1,2,1,Ramicaule,Erect
+2017,70,189,3.5,Stelis vulcanica,RY,T13,E2,189,Stelis vulcanica,18.296,0.2212,2.38,1.563333333,82.7124774,17,15,8,0,2,1,Ramicaule,Erect
+2017,72,192,6,Stelis spathulata,RY,T14,E3,192,Stelis spathulata,2.11,0.0144,0.12,0.646666667,146.5277778,11,8,11,1,2,1,Ramicaule,Erect
+2017,72,193,6,Stelis spathulata,RY,T14,E3,193,Stelis spathulata,3.547,0.0261,0.18,0.596666667,135.9003831,17,11.5,17,1,2,1,Ramicaule,Erect
+2017,72,194,6,Stelis argentata,RY,T14,E3,194,Stelis argentata,11.762,0.0988,0.86,0.856666667,119.048583,19,13.5,19,1,2,1,Ramicaule,Erect
+2017,72,195,6,Stelis argentata,RY,T14,E3,195,Stelis argentata,19.31,0.1745,1.61,0.936666667,110.6590258,11,15.5,11,1,2,1,Ramicaule,Erect
+2017,72,196,6,Stelis spathulata,RY,T14,E3,196,Stelis spathulata,2.863,0.0261,0.15,0.583333333,109.6934866,19,13.5,19,1,2,1,Ramicaule,Erect
+2017,72,197,6,Stelis spathulata,RY,T14,E3,197,Stelis spathulata,4.276,0.0329,0.33,0.74,129.9696049,17,14,17,1,2,1,Ramicaule,Erect
+2017,72,199,6,Stelis argentata,RY,T14,E3,199,Stelis argentata,6.268,0.1002,0.95,1.813333333,62.55489022,7,13.5,5,0,2,1,Ramicaule,Erect
+2017,72,200,8,Stelis spathulata,RY,T14,E4,200,Stelis spathulata,3.254,0.0271,0.25,0.923333333,120.0738007,9,8.5,9,1,2,1,Ramicaule,Erect
+2017,72,201,8,Stelis spathulata,RY,T14,E4,201,Stelis spathulata,2.923,0.0298,0.17,0.54,98.08724832,25,13,10,1,2,1,Ramicaule,Erect
+2017,72,202b,8,Stelis spathulata,RY,T14,E4,202b,Stelis spathulata,3.984,0.0372,0.25,0.65,107.0967742,9,9.5,9,1,2,1,Ramicaule,Erect
+2017,72,204,8,Pleurothallis hystrix,RY,T14,E4,204,Pleurothallis hystrix,4.824,0.0634,0.51,1.206666667,76.08832808,19,12,8,1,2,1,Ramicaule,Erect
+2017,72,205,8,Stelis argentata,RY,T14,E4,205,Stelis argentata,50.41,0.7336,9.16,2.633333333,68.71592148,17,31,3,1,2,1,Ramicaule,Erect
+2017,72,206,6,Stelis vulcanica,RY,T14,E3,206,Stelis vulcanica,9.641,0.0806,0.75,0.85,119.6153846,18,15,18,1,2,1,Ramicaule,Erect
+2017,72,207,10,Pleurothallis hystrix,RY,T14,E5,207,Pleurothallis hystrix,3.645,0.0365,0.25,0.696666667,99.8630137,,,,,1,3,Stemmed,Reptant
+2017,72,208,10,Pleurothallis hystrix,RY,T14,E5,208,Pleurothallis hystrix,1.902,0.0252,0.15,0.836666667,75.47619048,,,,,1,3,Stemmed,Reptant
+2017,72,209,10,Pleurothallis hystrix,RY,T14,E5,209,Pleurothallis hystrix,2.743,0.0238,0.22,1.016666667,115.2521008,,,,,1,3,Stemmed,Reptant
+2017,72,210,10,Stelis argentata,RY,T14,E5,210,Stelis argentata,13.308,0.1204,1.24,1.21,110.5315615,28,17,28,1,2,1,Ramicaule,Erect
+2017,72,212,3.5,Epidendrum RY,RY,T14,E2,212,Epidendrum RY,34.601,0.1729,1.28,0.446666667,200.1214575,10,27.5,8,0,,,,
+2017,72,213,1,Cryptocentrum latifolium,RY,T14,E1,213,Cryptocentrum latifolium,9.819,0.066,0.7,0.876666667,148.7727273,1,150,,0,5,1,Monopodial,Erect
+2017,72,214,1,Cryptocentrum latifolium,RY,T14,E1,214,Cryptocentrum latifolium,6.114,0.0288,0.36,0.63,212.2916667,1,,,,5,1,Monopodial,Erect
+2017,72,215,1,Pleurothallis hystrix,RY,T14,E1,215,Pleurothallis hystrix,5.25,0.0303,0.29,0.68,173.2673267,,,,,1,3,Stemmed,Reptant
+2017,75,510,3,Stelis argentata,RY,T15,E2,400,Stelis argentata,14.81,0.0926,1.05,0.77,159.9352052,9,16,9,2,2,1,Ramicaule,Erect
+2017,75,511,3,Stelis argentata,RY,T15,E2,401,Stelis argentata,14.634,0.1006,1.14,0.82,145.4671968,6,17,6,0,2,1,Ramicaule,Erect
+2017,75,512,3,Stelis argentata,RY,T15,E2,402,Stelis argentata,14.802,0.1083,1.18,0.833333333,136.6759003,6,17.5,6,0,2,1,Ramicaule,Erect
+2017,75,513,3,Stelis argentata,RY,T15,E2,403,Stelis argentata,8.516,0.0513,0.53,0.65,166.0038986,3,12.5,3,0,2,1,Ramicaule,Erect
+2017,75,514,3,Stelis argentata,RY,T15,E2,404,Stelis argentata,7.828,0.04,0.52,0.693333333,195.7,6,15.5,6,0,2,1,Ramicaule,Erect
+2017,75,515,3,Stelis spathulata,RY,T15,E2,405,Stelis spathulata,1.32,0.006,0.06,0.516666667,220,5,6.5,5,0,2,1,Ramicaule,Erect
+2017,75,516,3,Lankesteriana sp.,RY,T15,E2,406,Lankesteriana cuspidata,2.139,0.0063,0.026666667,0.47,339.5238095,18,2.7,18,1,2,1,Ramicaule,Erect
+2017,75,517,6,Stelis argentata,RY,T15,E3,407,Stelis argentata,10.356,0.0806,0.64,0.606666667,128.4863524,9,12.7,9,1,2,1,Ramicaule,Erect
+2017,75,518,6,Stelis argentata,RY,T15,E3,408,Stelis argentata,8.572,0.05,0.54,0.613333333,171.44,5,10.3,5,0,2,1,Ramicaule,Erect
+2017,75,519,6,Stelis argentata,RY,T15,E3,409,Stelis argentata,13.7,0.0986,0.95,0.716666667,138.9452333,26,18.3,26,1,2,1,Ramicaule,Erect
+2017,75,520,6,Stelis sp.,RY,T15,E3,410,Stelis popayanensis,6.219,0.0523,0.48,0.846666667,118.9101338,9,16,9,0,2,1,Ramicaule,Erect
+2017,75,521,6,Stelis sp.,RY,T15,E3,411,Stelis popayanensis,7.173,0.079,0.6,0.983333333,90.79746835,5,14.3,5,0,2,1,Ramicaule,Erect
+2017,75,522,6,Stelis sp.,RY,T15,E3,412,Stelis popayanensis,2.516,0.0213,0.24,1.243333333,118.1220657,11,7.5,11,0,2,1,Ramicaule,Erect
+2017,75,523,6,Lankesteriana sp.,RY,T15,E3,413,Lankesteriana cuspidata,1.428,0.0053,0.02,0.303333333,269.4339623,4,2.3,4,0,2,1,Ramicaule,Erect
+2017,75,524,6,Lankesteriana sp.,RY,T15,E3,414,Lankesteriana cuspidata,0.997,0.0051,0.001666667,0.256666667,195.4901961,6,2.6,6,0,2,1,Ramicaule,Erect
+2017,75,525,8,Cryptocentrum latifolium,RY,T15,E4,415,Cryptocentrum latifolium,11.697,0.103,0.77,0.663333333,113.5631068,1,18.5,5,0,5,1,Monopodial,Erect
+2017,75,526,8,Cryptocentrum latifolium,RY,T15,E4,416,Cryptocentrum latifolium,12.953,0.1009,0.85,0.646666667,128.3746283,1,18.2,4,0,5,1,Monopodial,Erect
+2017,75,528,8,Stelis sp.,RY,T15,E4,418,Stelis popayanensis,5.674,0.077,0.58,,73.68831169,1,8,4,0,5,1,Monopodial,Erect
+2017,75,419,8,Stelis argentata,RY,T15,E4,419,Stelis argentata,7.135,0.0685,0.57,0.803333333,104.1605839,7,14.8,7,0,2,1,Ramicaule,Erect
+2017,75,420,8,Stelis argentata,RY,T15,E4,420,Stelis argentata,5.375,0.0651,0.48,0.883333333,82.56528418,12,7.5,12,0,2,1,Ramicaule,Erect
+2017,75,421,8,Stelis argentata,RY,T15,E4,421,Stelis argentata,5.782,0.0568,0.45,0.88,101.7957746,4,7,4,0,2,1,Ramicaule,Erect
+2017,75,422,8,Stelis argentata,RY,T15,E4,422,Stelis argentata,10.402,0.0914,0.8,0.8,113.8074398,5,11.5,5,0,2,1,Ramicaule,Erect
+2017,75,424,8,Stelis spathulata,RY,T15,E4,424,Stelis spathulata,2.622,0.028,0.14,0.496666667,93.64285714,9,8.7,9,0,2,1,Ramicaule,Erect
+2017,75,425,8,Stelis spathulata,RY,T15,E4,425,Stelis spathulata,2.85,0.0327,0.17,0.55,87.1559633,5,8.4,5,0,2,1,Ramicaule,Erect
+2017,75,426,8,Stelis spathulata,RY,T15,E4,426,Stelis spathulata,2.292,0.0216,0.15,0.746666667,106.1111111,7,8.5,7,0,2,1,Ramicaule,Erect
+2017,75,427,10,Stelis spathulata,RY,T15,E5,427,Stelis spathulata,3.027,0.0271,0.17,0.533333333,111.697417,6,8.7,6,0,2,1,Ramicaule,Erect
+2017,75,428,10,Stelis spathulata,RY,T15,E5,428,Stelis spathulata,2.048,0.019,0.14,0.706666667,107.7894737,4,7.7,4,0,2,1,Ramicaule,Erect
+2017,75,429,10,Stelis spathulata,RY,T15,E5,429,Stelis spathulata,3.105,0.0284,0.18,0.653333333,109.3309859,4,8.9,4,0,2,1,Ramicaule,Erect
+2017,75,430,10,Stelis spathulata,RY,T15,E5,430,Stelis spathulata,3.089,0.0364,0.18,0.523333333,84.86263736,7,12,7,0,2,1,Ramicaule,Erect
+2017,75,431,10,Stelis spathulata,RY,T15,E5,431,Stelis spathulata,1.987,0.0166,0.15,0.703333333,119.6987952,4,6,4,0,2,1,Ramicaule,Erect
+2017,75,432,10,Stelis argentata,RY,T15,E5,432,Stelis argentata,4.032,0.0385,0.24,1.143333333,104.7272727,5,7.2,1,0,2,1,Ramicaule,Erect
+2017,75,433,10,Stelis argentata,RY,T15,E5,433,Stelis argentata,9.414,0.0923,0.66,0.67,101.9934995,9,10.3,9,2,2,1,Ramicaule,Erect
+2017,75,434,10,Stelis argentata,RY,T15,E5,434,Stelis argentata,11.735,0.0821,1.23,1.153333333,142.9354446,6,14.5,6,0,2,1,Ramicaule,Erect
+2017,75,435,10,Stelis sp.,RY,T15,E5,435,Stelis popayanensis,5.53,0.0639,0.51,1.04,86.54147105,6,15.5,6,0,2,1,Ramicaule,Erect
+2017,75,436,10,Stelis sp.,RY,T15,E5,436,Stelis popayanensis,5.122,0.1549,0.76,1.803333333,33.06649451,10,11.2,10,0,2,1,Ramicaule,Erect
+2017,75,437,10,Maxillaria ochracea,RY,T15,E5,437,Maxillaria ochracea,14.913,0.5504,1.51,1.09,27.09484012,4,12,2,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,75,438,10,Maxillaria ochracea,RY,T15,E5,438,Maxillaria ochracea,7.95,0.0664,0.54,0.673333333,119.7289157,10,11,10,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,75,439,10,Stelis vulcanica,RY,T15,E5,439,Stelis vulcanica,58.581,0.998,8.93,1.77,58.69839679,14,29.5,14,2,2,1,Ramicaule,Erect
+2017,75,440,10,Stelis vulcanica,RY,T15,E5,440,Stelis vulcanica,35.187,0.4482,4.74,1.536666667,78.50736278,6,22.6,6,2,2,1,Ramicaule,Erect
+2017,69,441,3,Stelis vulcanica,RY,T12,E2,441,Stelis vulcanica,59.171,0.7645,8.36,1.55,77.39829954,5,32.5,5,0,2,1,Ramicaule,Erect
+2017,69,442,3,Stelis spathulata,RY,T12,E2,442,Stelis spathulata,0.855,0.0065,0.06,0.743333333,131.5384615,17,4,17,0,2,1,Ramicaule,Erect
+2017,69,443,3,Stelis spathulata,RY,T12,E2,443,Stelis spathulata,1.099,0.0102,0.07,0.876666667,107.745098,8,5,8,0,2,1,Ramicaule,Erect
+2017,69,444,3,Stelis spathulata,RY,T12,E2,444,Stelis spathulata,1.89,0.0184,0.12,0.583333333,102.7173913,18,7,18,0,2,1,Ramicaule,Erect
+2017,69,445,8,Oncidium heteranthum,RY,T12,E4,445,Oncidium adelaide,5.973,0.0471,0.18,0.22,126.8152866,5,12.2,5,0,3,1,Pseudobulbs_Single internode,Erect
+2017,69,446,8,Oncidium heteranthum,RY,T12,E4,446,Oncidium adelaide,4.629,0.0227,0.1,0.176666667,203.9207048,3,8,3,0,3,1,Pseudobulbs_Single internode,Erect
+2017,69,447,8,Campylocentrum micranthum,RY,T12,E4,447,Campylocentrum micranthum,0.888,0.0116,0.07,0.996666667,76.55172414,2,8,2,0,4,2,Leafy stem,Scandent
+2017,69,449,10,Epidendrum RY,RY,T12,E5,449,Epidendrum RY,5.175,0.0635,0.42,0.83,81.49606299,11,33,11,0,,,,
+2017,69,450,10,Stelis vulcanica,RY,T12,E5,450,Stelis vulcanica,47.961,0.7587,8.3,1.923333333,63.21470937,11,30,11,0,2,1,Ramicaule,Erect
+2017,79,451,3,Pleurothallis hystrix,RY,T16,E2,451,Pleurothallis hystrix,3.045,0.0231,0.16,0.593333333,131.8181818,20,11.3,20,0,1,3,Stemmed,Reptant
+2017,79,452,6,Pleurothallis hystrix,RY,T16,E3,452,Pleurothallis hystrix,3.806,0.025,0.18,0.51,152.24,6,10.5,6,0,1,3,Stemmed,Reptant
+2017,79,453,6,Stelis argentata,RY,T16,E3,453,Stelis argentata,11.035,0.0941,0.71,0.67,117.2688629,8,12.3,8,0,2,1,Ramicaule,Erect
+2017,79,454,6,Stelis argentata,RY,T16,E3,454,Stelis argentata,16.857,0.1039,0.76,0.416666667,162.2425409,6,17.3,6,1,2,1,Ramicaule,Erect
+2017,79,455,6,Stelis argentata,RY,T16,E3,455,Stelis argentata,22.268,0.1688,1.51,0.733333333,131.9194313,15,20,15,0,2,1,Ramicaule,Erect
+2017,79,456,6,Cryptocentrum latifolium,RY,T16,E3,456,Cryptocentrum latifolium,18.231,0.2111,0.85,1.976666667,86.36191378,1,16.3,5,0,5,1,Monopodial,Erect
+2017,79,458,8,Cryptocentrum latifolium,RY,T16,E4,458,Cryptocentrum latifolium,37.62,0.0901,2.5,4.133333333,417.536071,3,34,14,0,5,1,Monopodial,Erect
+2017,79,459,8,Pleurothallis hystrix,RY,T16,E4,459,Pleurothallis hystrix,3.048,0.023,0.26,0.903333333,132.5217391,15,7.2,15,0,1,3,Stemmed,Reptant
+2017,79,460,8,Pleurothallis hystrix,RY,T16,E4,460,Pleurothallis hystrix,2.838,0.0256,0.13,0.526666667,110.859375,10,8.4,10,0,1,3,Stemmed,Reptant
+2017,79,461,8,Pleurothallis hystrix,RY,T16,E4,461,Pleurothallis hystrix,2.735,0.0197,0.17,0.646666667,138.8324873,25,8.2,25,0,1,3,Stemmed,Reptant
+2017,79,462,10,Pleurothallis hystrix,RY,T16,E5,462,Pleurothallis hystrix,1.765,0.0143,0.08,0.466666667,123.4265734,24,12,24,0,1,3,Stemmed,Reptant
+2017,79,463,10,Stelis spathulata,RY,T16,E5,463,Stelis spathulata,3.754,0.0411,0.31,0.94,91.33819951,8,6.8,8,0,2,1,Ramicaule,Erect
+2017,79,464,10,Stelis spathulata,RY,T16,E5,464,Stelis spathulata,2.917,0.0315,0.16,0.576666667,92.6031746,34,8,34,1,2,1,Ramicaule,Erect
+2017,79,465,10,Stelis spathulata,RY,T16,E5,465,Stelis spathulata,2.412,0.0209,0.12,0.563333333,115.4066986,5,8.5,5,1,2,1,Ramicaule,Erect
+2017,79,466,10,Stelis argentata,RY,T16,E5,466,Stelis argentata,19.259,0.1552,1.2,0.646666667,124.0914948,26,19.6,26,1,2,1,Ramicaule,Erect
+2017,79,467,10,Stelis sp.,RY,T16,E5,467,Stelis popayanensis,6.434,0.1168,0.76,1.45,55.08561644,7,10.3,7,0,2,1,Ramicaule,Erect
+2017,82,468,1,Stelis argentata,RY,T18,E1,468,Stelis argentata,12.927,0.0578,0.88,0.746666667,223.650519,13,13.8,13,0,2,1,Ramicaule,Erect
+2017,82,469,1,Stelis argentata,RY,T18,E1,469,Stelis argentata,12.551,0.0765,0.92,0.81,164.0653595,10,17.2,10,0,2,1,Ramicaule,Erect
+2017,82,470,1,Stelis argentata,RY,T18,E1,470,Stelis argentata,14.143,0.0855,1.14,0.813333333,165.4152047,11,18.2,11,0,2,1,Ramicaule,Erect
+2017,82,471,1,Stelis spathulata,RY,T18,E1,471,Stelis spathulata,4.607,0.0271,0.29,0.763333333,170,13,12.3,13,0,2,1,Ramicaule,Erect
+2017,82,472,3,Stelis spathulata,RY,T18,E2,472,Stelis spathulata,7.004,0.0349,0.53,0.856666667,200.6876791,6,11.4,6,0,2,1,Ramicaule,Erect
+2017,82,473,3,Stelis spathulata,RY,T18,E2,473,Stelis spathulata,3.46,0.0224,0.24,0.696666667,154.4642857,8,11.4,8,0,2,1,Ramicaule,Erect
+2017,82,474,3,Stelis spathulata,RY,T18,E2,474,Stelis spathulata,2.763,0.0133,0.18,0.706666667,207.7443609,6,6.9,6,0,2,1,Ramicaule,Erect
+2017,82,475,6,Stelis spathulata,RY,T18,E3,475,Stelis spathulata,5.149,0.0416,0.4,0.816666667,123.7740385,13,11.5,13,1,2,1,Ramicaule,Erect
+2017,82,476,6,Stelis spathulata,RY,T18,E3,476,Stelis spathulata,3.377,0.0262,0.26,0.863333333,128.8931298,7,10.2,7,0,2,1,Ramicaule,Erect
+2017,82,477,6,Stelis spathulata,RY,T18,E3,477,Stelis spathulata,3.49,0.027,0.28,0.84,129.2592593,41,12.1,41,0,2,1,Ramicaule,Erect
+2017,82,478,6,Stelis argentata,RY,T18,E3,478,Stelis argentata,19.61,0.1755,1.87,1.023333333,111.7378917,5,18,5,0,2,1,Ramicaule,Erect
+2017,82,479,6,Stelis argentata,RY,T18,E3,479,Stelis argentata,25.466,0.1158,1.88,0.823333333,219.9136442,8,18.3,8,0,2,1,Ramicaule,Erect
+2017,82,480,6,Stelis argentata,RY,T18,E3,480,Stelis argentata,7.529,0.0617,0.67,1.026666667,122.0259319,8,10,8,1,2,1,Ramicaule,Erect
+2017,82,481,6,Stelis argentata,RY,T18,E3,481,Stelis argentata,12.77,0.0842,0.95,0.82,151.6627078,8,15.4,8,0,2,1,Ramicaule,Erect
+2017,82,482,8,Campylocentrum micranthum,RY,T18,E4,482,Campylocentrum micranthum,0.749,0.0097,0.06,1.086666667,77.21649485,1,21.5,11,0,4,2,Leafy stem,Scandent
+2017,82,483,8,Campylocentrum micranthum,RY,T18,E4,483,Campylocentrum micranthum,0.75,0.0115,0.05,0.9,65.2173913,1,11,7,0,4,2,Leafy stem,Scandent
+2017,82,485,8,Campylocentrum micranthum,RY,T18,E4,485,Campylocentrum micranthum,0.695,0.0087,0.06,0.966666667,79.88505747,1,6,6,0,4,2,Leafy stem,Scandent
+2017,82,486,10,Campylocentrum micranthum,RY,T18,E5,486,Campylocentrum micranthum,1.043,0.0124,0.08,0.986666667,84.11290323,1,10,4,0,4,2,Leafy stem,Scandent
+2017,82,487,10,Campylocentrum micranthum,RY,T18,E5,487,Campylocentrum micranthum,0.973,0.0159,0.09,0.99,61.19496855,1,12,9,0,4,2,Leafy stem,Scandent
+2017,82,488,10,Campylocentrum micranthum,RY,T18,E5,488,Campylocentrum micranthum,1.372,0.0179,0.13,1.156666667,76.64804469,1,8.7,6,0,4,2,Leafy stem,Scandent
+2017,82,489,10,Campylocentrum micranthum,RY,T18,E5,489,Campylocentrum micranthum,1.286,0.0125,0.09,1.073333333,102.88,1,10.5,8,0,4,2,Leafy stem,Scandent
+2017,82,490,10,Oncidium heteranthum,RY,T18,E5,490,Oncidium adelaide,11.122,0.0579,0.33,0.246666667,192.08981,3,11.6,6,0,3,1,Pseudobulbs_Single internode,Erect
+2017,81,491,1,Pleurothallis hystrix,RY,T17,E1,491,Pleurothallis hystrix,1.794,0.0147,0.15,0.943333333,122.0408163,9,10.1,9,0,1,3,Stemmed,Reptant
+2017,81,492,1,Pleurothallis hystrix,RY,T17,E1,492,Pleurothallis hystrix,5.436,0.0421,0.41,0.89,129.1211401,8,11,8,0,1,3,Stemmed,Reptant
+2017,81,493,1,Pleurothallis hystrix,RY,T17,E1,493,Pleurothallis hystrix,5.102,0.0341,0.34,0.72,149.6187683,8,12,8,0,1,3,Stemmed,Reptant
+2017,81,494,1,Stelis argentata,RY,T17,E1,494,Stelis argentata,14.372,0.0908,1.34,1.04,158.2819383,7,17.5,7,0,2,1,Ramicaule,Erect
+2017,81,495,8,Maxillaria ochracea,RY,T17,E4,495,Maxillaria ochracea,14.815,0.1152,1.03,0.666666667,128.6024306,6,19,17,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,81,496,8,Maxillaria ochracea,RY,T17,E4,496,Maxillaria ochracea,22.683,0.1855,1.72,0.75,122.2803235,3,14.2,7,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,81,497,8,Maxillaria ochracea,RY,T17,E4,497,Maxillaria ochracea,15.434,0.1517,1.25,0.81,101.7402769,3,8,3,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,81,498,8,Stelis spathulata,RY,T17,E4,498,Stelis spathulata,2.317,0.0207,0.12,0.496666667,111.9323671,11,7.3,11,0,2,1,Ramicaule,Erect
+2017,81,499,8,Stelis spathulata,RY,T17,E4,499,Stelis spathulata,4.5,0.0286,0.32,0.676666667,157.3426573,10,11.3,10,0,2,1,Ramicaule,Erect
+2017,81,500,8,Stelis argentata,RY,T17,E4,500,Stelis argentata,3.347,0.0163,0.21,0.68,205.3374233,6,7.5,6,0,2,1,Ramicaule,Erect
+2017,81,501,8,Stelis sp.,RY,T17,E4,501,Stelis popayanensis,3.446,0.0403,0.26,0.863333333,85.50868486,4,14,4,0,2,1,Ramicaule,Erect
+2017,81,502,8,Stelis sp.,RY,T17,E4,502,Stelis popayanensis,2.014,0.0226,0.13,0.75,89.11504425,5,8.5,5,0,2,1,Ramicaule,Erect
+2017,81,503,8,Epidendrum RY,RY,T17,E4,503,Epidendrum RY,47.027,0.9662,6.5,1.64,48.67211757,,,,,,,,
+2017,81,504,6,Maxillaria ochracea,RY,T17,E3,504,Maxillaria ochracea,28.974,0.2228,2.42,0.826666667,130.0448833,23,16.5,23,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,81,505,6,Maxillaria ochracea,RY,T17,E3,505,Maxillaria ochracea,23.139,0.208,2.46,1.116666667,111.2451923,12,19,12,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,81,506,6,Maxillaria ochracea,RY,T17,E3,506,Maxillaria ochracea,19.285,0.1683,1.48,0.796666667,114.5870469,4,14,4,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,81,507,6,Oncidium pictum,RY,T17,E3,507,Oncidium pictum,62.023,0.5475,2.98,0.473333333,113.2840183,4,33.4,4,0,3,1,Pseudobulbs_Single internode,Erect
+2017,81,508,6,Stelis argentata,RY,T17,E3,508,Stelis argentata,14.348,0.1133,1.33,1.003333333,126.6372462,12,16,12,0,2,1,Ramicaule,Erect
+2017,81,509,6,Stelis argentata,RY,T17,E3,509,Stelis argentata,6.021,0.0416,0.57,1.19,144.7355769,3,9.5,3,0,2,1,Ramicaule,Erect
+2017,81,529,3,Maxillaria ochracea,RY,T17,E2,529,Maxillaria ochracea,23.825,0.2111,2.28,1.056666667,112.8612032,7,37,7,0,3,2,Pseudobulbs_Single internode,Scandent
+2017,81,530,3,Stelis argentata,RY,T17,E2,530,Stelis argentata,11.482,0.0727,0.83,0.773333333,157.9367263,14,12,14,0,2,1,Ramicaule,Erect
+2017,81,531,3,Stelis argentata,RY,T17,E2,531,Stelis argentata,4.594,0.0287,0.33,0.803333333,160.0696864,10,10,10,0,2,1,Ramicaule,Erect
+2017,81,532,3,Stelis argentata,RY,T17,E2,532,Stelis argentata,8.526,0.0478,0.61,0.786666667,178.3682008,10,7.5,10,0,2,1,Ramicaule,Erect
