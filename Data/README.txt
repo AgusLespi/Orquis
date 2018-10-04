@@ -1,5 +1,6 @@
 ##Arreglo de traits
 
+#### 03/10/2018
 # Al calcular la suculencia de Mantovani aparecieron valores negativos debidos a que LFM < LDM.
 Se deben a 2 cosas: 
 1) LFM medido en varias hojas estaba dividido 2 veces. Está corregido en el mismo traits.xlsx.
@@ -63,6 +64,20 @@ Comments: Demasiada dispersión. No regresión. El id 333 se pierde para  LFM
 N total = 2
 N missing = 2
 Comments: Se pierden para LFM y medidas de suculencia.
+
+#### end of day
+
+#### 04/10/2018
+
+## Registro de cambios: Eliminación de filas por columna.
+
+# Sp_Orq_NHOC
+Ids sin etiqueta en esta col se eliminan: NEW_ID_CODE {117,121,139,168,170,172,176,179,190,191,203,211,448}
+
+# Listo. El resto queda por el momento.
+
+
+
 
 
 
