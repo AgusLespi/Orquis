@@ -1,4 +1,10 @@
-##Arreglo de traits
+CONTENIDOS
+
+################# A. ARREGLO PRIMARIO DE DATOS
+######## A.1. Arreglo de traits
+######## A.2. Arreglo de PAR
+
+######## A.1. Arreglo de traits
 
 #### 03/10/2018
 # Al calcular la suculencia de Mantovani aparecieron valores negativos debidos a que LFM < LDM.
@@ -76,8 +82,10 @@ Ids sin etiqueta en esta col se eliminan: NEW_ID_CODE {117,121,139,168,170,172,1
 
 # Listo. El resto queda por el momento.
 
+#################################################################################
 
-
+######## A.2. Arreglo de PAR
+# 11/10/2018. El fichero par.csv es identico a 180706_PAR_DHTF.csv de la carpeta OngoingProjects/Orchids.../Data.
 
 
 
