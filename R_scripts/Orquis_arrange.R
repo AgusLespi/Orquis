@@ -1,6 +1,15 @@
 ###### ORQUIS
 ###### ARREGLO DE DATOS PRIMARIOS
 
+# CONTENIDOS
+###### Arreglo de L-matrix
+###### Arreglo de R-matrix
+###### Arreglo de Q-matrix
+###### Igualar filas L y R.
+###### Juntarlas en una lista
+
+##########################################################################
+
 ###### Arreglo de L-matrix
 
 ##### Importar datos de excel para sumar el número de presencias de cada sp. por estrato y forófito.
@@ -106,9 +115,34 @@ write.table(q.matrix0, "Q-matrix.txt")
 
 ################## LISTO
 
+##################
+
+###### Igualar filas L y R (en excel)
+
+lmatrix <- read.excel()
+write.table(lmatrix, "l-mat.txt")
+
+rmatrix <- read.table("R-matrix.txt", head=TRUE, sep="	") # sep=tab
+lmatrix1 <- read.table("L-mat.txt", head=TRUE, sep=" ")
+
+site <- as.data.frame(rownames(rmatrix))
+names(site) <- "site"
+
+rmat <- cbind(site,rmatrix[,4:10])
+lmat <- cbind(site,lmatrix1[,3:36])
+qmat <- q.matrix0
+
+write.table(rmat, "rmat.txt")
+
+write.table(lmat, "lmat.txt")
+
+write.table(qmat, "qmat.txt")
+###### Juntar las matrices en una lista
 
 
 
+matrices <- list(rmat, lmat, qmat)
+names(matrices) <- c("rmat", "lmat", "qmat")
 
 
 

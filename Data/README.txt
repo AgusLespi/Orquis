@@ -87,6 +87,31 @@ Ids sin etiqueta en esta col se eliminan: NEW_ID_CODE {117,121,139,168,170,172,1
 ######## A.2. Arreglo de PAR
 # 11/10/2018. El fichero par.csv es identico a 180706_PAR_DHTF.csv de la carpeta OngoingProjects/Orchids.../Data.
 
+#################################################################################
+
+######## A.3. Arreglo de L y R matrix
+# 12/10/2018. L matrix tiene 70 sites y R matrix tiene 86. Hay que agregar estos 16 en la L matrix.
+F01 E1
+F02 E1
+F02 E2
+F03 E1
+F04 E1
+F06 E1
+F07 E1
+F07 E2
+F08 E1
+F10 E3
+F10 E4
+F12 E1
+F12 E3
+F13 E1 
+F13 E3
+F15 E1
+F16 E1
+
+# R matrix tiene un estrato con env var pero sin traits.
+F03 E5
+(ver si se elimina esta fila de las 2 tablas)
 
 
 
