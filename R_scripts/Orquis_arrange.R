@@ -74,6 +74,38 @@ write.table(r.matrix1, "R-matrix.txt")
 ################## LISTO
 
 
+###### Arreglo de Q-matrix
+
+##### Importar datos de excel para sumar el número de presencias de cada sp. por estrato y forófito.
+
+dat <- read.csv("traits.csv", head=TRUE, sep=";") # 
+datos <- dat
+
+# pasar de integer a numérico
+datos[8:12] <- lapply(datos[8:12], as.numeric)
+
+# reemplazar NA por ceros
+
+datos[is.na(datos)] <- 0
+
+# medias por código combinado
+sumas <- by(datos[,8:25], datos$spp, colMeans)
+sumas1 <- data.frame(do.call("rbind", sumas))
+dato1 <- sumas1
+
+# recuperar el código de spp
+code <- as.data.frame(rownames(dato1))
+	names(code) <- "spp"
+	
+# pegar código a tabla
+q.matrix0 <- cbind(code, dato1)
+
+# exportar la tabla
+
+write.table(q.matrix0, "Q-matrix.txt")
+
+################## LISTO
+
 
 
 
