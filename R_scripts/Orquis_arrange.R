@@ -7,7 +7,7 @@
 ###### Arreglo de Q-matrix
 ###### Igualar filas L y R.
 ###### Juntarlas en una lista
-
+###### Arreglo de Q matrix por localidad
 ##########################################################################
 
 ###### Arreglo de L-matrix
@@ -141,17 +141,113 @@ write.table(qmat, "qmat.txt")
 ###### Juntar las matrices en una lista
 rmat <- read.table("rmat.txt", head=TRUE, sep=" ")
 lmat <- read.table("lmat.txt", head=TRUE, sep=" ")
+
 qmat <- read.table("qmat.txt", head=TRUE, sep=" ")
 
 matrices <- list(rmat, lmat, qmat)
 names(matrices) <- c("rmat", "lmat", "qmat")
 
 
+####################################################################
+####################################################################
+####################################################################
+
+################## Arreglo Q matrix por localidad
+
+dat <- read.csv("traits.csv", head=TRUE, sep=";") # 
+datoss <- dat
+
+#datos <- subset(datoss, site =="LH")
+datos <- subset(datoss, site =="RY")
+
+# pasar de integer a numérico
+datos[8:12] <- lapply(datos[8:12], as.numeric)
+
+# reemplazar NA por ceros
+
+datos[is.na(datos)] <- 0
+
+# medias por sp
+sumas <- by(datos[,8:25], datos$spp, colMeans)
+sumas1 <- data.frame(do.call("rbind", sumas))
+dato1 <- sumas1
+
+# recuperar el código de spp
+code <- as.data.frame(rownames(dato1))
+	names(code) <- "spp"
+	
+# pegar código a tabla
+# q.matrixLH <- cbind(code, dato1)
+q.matrixRY <- cbind(code, dato1)
+
+# exportar la tabla
+
+# write.table(q.matrixLH, "Q-matrix-LH.txt")
+write.table(q.matrixRY, "Q-matrix-RY.txt")
+
+################## LISTO
+
+qmat3 <- read.table("Q-matrix-LH.txt", head=TRUE, sep="	")
+qmat4 <- read.table("Q-matrix-RY.txt", head=TRUE, sep="	")
+
+###### Eliminar spp que sobran de cada hoja
+ 
+datos[, colSums(SelectVar != 0) > 0]
+
+###### Igualar filas L y R (en excel)
+
+#LH
+ # q-mat 24 spp. x 18 traits
+
+#RY
+ # q-mat 20 spp. x 18 traits
 
 
 
 
+###### ################ Por localidades
 
+###### Abrir matrices 
+rmat <- read.table("rmat.txt", head=TRUE, sep=" ")
+lmat <- read.table("lmat.txt", head=TRUE, sep=" ")
+qmat <- read.table("qmat.txt", head=TRUE, sep=" ")
+
+## abrir rasgos cualitativos 
+
+qual <- read.csv("qualitativetraits.csv", head=TRUE)
+###### Quitar col codigo
+lmat2 <- lmat[,2:35]
+rmat2 <- rmat[,2:8]
+qmat2 <- qmat[,2:19]
+
+	# LH
+	rmat3 <- rmat2[1:43,] 
+	lmat3 <- lmat2[1:43,]
+	# write.table(lmat3, "lmat3LH.txt",sep=",")
+	l3 <- read.table("lmat3LH.txt", head=TRUE, sep="")
+	l3 <- l3[,2:25] # este es el bueno. Solo las spp. de la localidad
+	
+	qmat3 <- read.table("Q-matrix-LH.txt", head=TRUE, sep="	")
+	q3 <- qmat3[,2:19]
+	q3 <- cbind(q3, qual[,2:3])
+
+	# RY
+	rmat4 <- rmat2[44:87,]
+	lmat4 <- lmat2[44:87,]
+	# write.table(lmat4, "lmat4RY.txt",sep=",")
+	l4 <- read.table("lmat4RY.txt", head=TRUE, sep="")
+	l4 <- l4[,2:21] # este es el bueno. Solo las spp. de la localidad
+	
+	qmat4 <- read.table("Q-matrix-RY.txt", head=TRUE, sep="	")
+	q4 <- qmat4[,2:19]
+	qual2 <- qual[1:20,5:6]
+	q4 <- cbind(q4, qual2)
+
+
+## orq para cada localidad
+#LH
+orq <- list(rmat3, l3, q3)
+names(orq) <- c("env", "spe", "traits")
 
 
 
