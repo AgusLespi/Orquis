@@ -113,6 +113,24 @@ F16 E1
 F03 E5
 (ver si se elimina esta fila de las 2 tablas)
 
+########################################################################3
+
+13/10/2018
+
+Arreglo de datos por localidad para rlq y 4th corner. 
+Creo que la lié un poquillo.
+
+Orquis_arrange.R hay un subset por localidad, quite spp que no están en esa población de las matrices, agregue traits de habito (que se perdieron durante el promedio de los rasgos cuantitativos)
+Orquis: intenté correr 4th corner en LH pero me dice que hay duplicated rows y además no le gusta que haya celdas vacias en habito. Hay que poner NA o un código común, o preguntarle a nhora que hábito tenían.
+El problema de row duplicated ya venía cuando estaba editando e intentando abrir las Q-matrix-LH y RY. Las edité desde excel y después se jodió todo.
+
+Ahora estoy cansada. Tareas para la próxima sesión:
+
+-Revisar matrices Q-matrix-LH y RH
+-Resolver hábitos vacíos
+
+Comentario. Voy a intentar abrir una rama en el repo para guardar estos últimos cambios.
+
 
 
 
