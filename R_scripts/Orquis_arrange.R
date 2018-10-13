@@ -137,12 +137,15 @@ write.table(rmat, "rmat.txt")
 write.table(lmat, "lmat.txt")
 
 write.table(qmat, "qmat.txt")
+
 ###### Juntar las matrices en una lista
-
-
+rmat <- read.table("rmat.txt", head=TRUE, sep=" ")
+lmat <- read.table("lmat.txt", head=TRUE, sep=" ")
+qmat <- read.table("qmat.txt", head=TRUE, sep=" ")
 
 matrices <- list(rmat, lmat, qmat)
 names(matrices) <- c("rmat", "lmat", "qmat")
+
 
 
 
