@@ -1,0 +1,132 @@
+################################################
+######
+###### 14/01/2019 - 
+######
+####################################################
+
+# Contents
+
+# 1. Arreglo de datos
+## 1.a. Arreglo inicial
+### 1.a.1. Datos crudos de luz: promediar (mluz) y varianzas (vluz)
+### 1.a.2. Datos crudos de rasgos: promediar (mtrait) y obtener varianzas (vtrait)
+### 1.a.3. Fusionar las dos tablas (habrá diferencias de filas)
+
+## 1.b. Rasgos promediados por sp y estrato
+### 1.b.1. Tabla de medias
+### 1.b.1. Tabla de varianzas intra-sample
+
+# 2. Análisis de medias (LM)
+## 2.a. Explorar correlaciones con script de carrascal
+## 2.b. Analizar correlaciones seleccionadas 
+
+# 3. Análisis de variazas (LM)
+## 3.a. Explorar correlaciones con script de carrascal
+## 4.b. Analizar correlaciones seleccionadas 
+
+####################################################
+
+# 1.a. Arreglo inicial
+
+setwd("E:/MS_in_prep/Orquis/Data")
+
+luz <- read.csv("par.csv", sep=",", head=T)
+traits <- read.csv("traits.csv", sep=";", head=T)
+
+library(reshape)
+library(dplyr)
+
+### 1.a.1. Datos crudos de luz: promediar (mluz) y varianzas (vluz)
+
+data <- luz
+
+#### Crear variable de código combinado arbol x estrato (sample)
+     data$sampl = paste(data$Tree, data$Elev, sep = "_")
+
+#### replace NA with 0
+data[is.na(data)] <- 0
+
+#### Obtain means
+mdata <- by(data, data$sampl, function(x){
+  means <- colMeans(x[,5:17])
+})
+	# coerce by to df
+	mluz <- data.frame(do.call("rbind", mdata))
+
+	# add code vars
+	mluz$sampl <- row.names(mluz)
+	
+#### Obtain var (lo dejo pendiente de encontrar una solución)
+
+
+### 1.a.2. Datos crudos de rasgos: promediar (mtraits) y varianzas (vtraits)
+
+data <- traits
+
+#### Crear variable de código combinado arbol x estrato (sample)
+     data$sampl = as.factor(paste(data$tree, data$stratum, sep = "_"))
+     data$NFU <- as.numeric(data$NFU)
+
+#### replace NA with 0
+	data[is.na(data)] <- 0
+
+#### Obtain means
+mdata <- by(data, data$sampl, function(x){
+  means <- colMeans(x[,12:25])
+})
+	# coerce by to df
+	mtraits <- data.frame(do.call("rbind", mdata))
+
+	# add code vars
+	mtraits$sampl <- row.names(mtraits)
+	
+#### Obtain var (lo dejo pendiente de encontrar una solución)
+
+
+### 1.a.3. Fusionar dos df
+
+datos <- merge(mluz, mtraits, by="sampl") # excelente
+
+###################
+# mluz contiene los datos promediados de luz, mtraits idem para los traits, 
+# y datos contiene ambos, más el código sampl. No he guardado estos datos, 
+#así que hay que volver a correr el script para pasar a la fase 2 (análisis).
+###################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
