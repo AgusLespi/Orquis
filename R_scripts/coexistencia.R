@@ -67,6 +67,7 @@ setwd("F:/MS_in_prep/Orquis/Data(Coexistence_Analysis")
 
 # mydata <- read.csv("LH.csv", sep=",", head=T)
 # mydata <- read.csv("RY.csv", sep=",", head=T)
+# mydata <- read.csv("Matriz_2loc.csv", sep=",", head=T)
 
 # delete cols with all 0 values
 
@@ -81,18 +82,20 @@ setwd("F:/MS_in_prep/Orquis/Data(Coexistence_Analysis")
 	y <- x[,!(colSums(abs(x)) == 0)] # select non-0 columns 
 	z <- which(!(rowSums(abs(x)) == 0)) # identify rows to be retained
 	code2 <- as.data.frame(as.character((code[z,]))) # select code labels using z
-		names(code2) <- ""
+		names(code2) <- "sample_label"
 	y2 <- as.data.frame(y[!(rowSums(abs(y)) == 0),]) # delete 0 rows
-	
-	final <- cbind(code2, y2)
-		colnames(final)[1] <- ""
+	z2 <- as.data.frame(as.numeric(z))
+		names(z2) <- ""
+	final <- cbind(code2, z2, y2)
+		colnames(final)[2] <- ""
 
 # lh <- final
 # ry <- final
+# todo <- final
 
 #### Guardar todas las matrices en una lista.
 
-coex_mat <- list(lh1, lh2, lh3, lh4, lh5, ry1, ry2, ry3, ry4, ry5, lh, ry)  
+coex_mat <- list(lh1, lh2, lh3, lh4, lh5, ry1, ry2, ry3, ry4, ry5, lh, ry, todo)  
 
 # save .txt
 
@@ -108,6 +111,7 @@ write.table(ry4, "ry4.txt")
 write.table(ry5, "ry5.txt")
 write.table(lh, "lh.txt")
 write.table(ry, "ry.txt")
+write.table(todo, "todo.txt")
 
 # save list
 coex_dat <- tempfile("coex_mat", fileext = ".rds") # no se donde lo está guardando, pero por el momento me vale.
@@ -139,14 +143,24 @@ library(vegan)
 # fichero <- read.table("ry4.txt") # sims = 1000 (8x12) 
 # fichero <- read.table("ry5.txt") # sims = 1000 (8x16) 
 
- fichero <- read.table("lh.txt") # sims = 1000 (34x25)
+### Las dos matrices grandes tienen un código compuesto que indica el estrato por forófito. Para el análisis, no se puede mantener como factor. Solucion: guardar la matriz en .txt con 2 cols de código: una en forma de factor y otra en forma del códifo de fila que se retuvo en la eliminación de filas compuestas de 0's. Más adelante, si se requiere, se puede usar el factor para etiquetar figuras.
+
+# fichero <- read.table("lh.txt") # sims = 1000 (34x25)
+#	sample_labs_lh <- fichero[,1]
+#	fichero <- fichero[,-1]
+
 # fichero <- read.table("ry.txt") #  sims = 1000 (36x21)
+#	sample_labs_ry <- fichero[,1]
+#	fichero <- fichero[,-1]
+
+ fichero <- read.table("todo.txt") #  sims = 1000 (36x21)
+	sample_labs_todo <- fichero[,1]
+	fichero <- fichero[,-1]
 
 	## Tunear matriz
 
 	fichero[sapply(fichero, is.integer)] <- lapply(fichero[sapply(fichero, is.numeric)], as.numeric)
 	colnames(fichero)[1] <- ""
-
 
 	## Tests - Jani Heino recomienda r1 y quasiswap.
 
@@ -163,11 +177,6 @@ library(vegan)
 
 	eje2.qs <- Metacommunity(comm=fichero, scores=2, method="quasiswap", order=T, sims=1000, allowEmpty=F)
 	eje2.qs 
-
-
-
-
-
 
 
 
