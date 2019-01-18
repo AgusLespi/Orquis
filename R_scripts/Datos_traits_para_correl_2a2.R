@@ -449,6 +449,8 @@ plot(dato$Chl_b, dato$CI2)
 #######################################################################
 #### POR SP
 
+
+
 str(traits)
 
 ## 1. Ver qué spp. tienen más de 10 individuos
