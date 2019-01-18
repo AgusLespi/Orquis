@@ -145,17 +145,17 @@ library(vegan)
 
 ### Las dos matrices grandes tienen un código compuesto que indica el estrato por forófito. Para el análisis, no se puede mantener como factor. Solucion: guardar la matriz en .txt con 2 cols de código: una en forma de factor y otra en forma del códifo de fila que se retuvo en la eliminación de filas compuestas de 0's. Más adelante, si se requiere, se puede usar el factor para etiquetar figuras.
 
-# fichero <- read.table("lh.txt") # sims = 1000 (34x25)
-#	sample_labs_lh <- fichero[,1]
-#	fichero <- fichero[,-1]
+ fichero <- read.table("lh.txt") # sims = 1000 (34x25)
+	sample_labs_lh <- fichero[,1]
+	fichero <- fichero[,-1]
 
 # fichero <- read.table("ry.txt") #  sims = 1000 (36x21)
 #	sample_labs_ry <- fichero[,1]
 #	fichero <- fichero[,-1]
 
- fichero <- read.table("todo.txt") #  sims = 1000 (36x21)
-	sample_labs_todo <- fichero[,1]
-	fichero <- fichero[,-1]
+# fichero <- read.table("todo.txt") #  sims = 1000 (36x21)
+#	sample_labs_todo <- fichero[,1]
+#	fichero <- fichero[,-1]
 
 	## Tunear matriz
 
@@ -179,12 +179,23 @@ library(vegan)
 	eje2.qs 
 
 
+## 
 
+#################################################################
+newdata <- fichero
+newdata[35,] <- colSums(fichero) # 
 
+newdata2 <- t(as.matrix(newdata))
+newdata3 <- as.data.frame(newdata2)
+colnames(newdata3)[35] <- "var"
+newdata4 <- newdata3[order(newdata3$var),]
+newdata5 <- t(as.matrix(newdata4))
+newdata6 <- as.data.frame(newdata5[-35,])
 
+Imagine(newdata6, col=c(0,1), order=TRUE, scores=1, fill=TRUE, xlab='Species', ylab='Site', yline=2, xline=2, sitenames=rownames(fichero), speciesnames=colnames(newdata6), binary=TRUE)
 
-
-
+# no lo hace bien
+#################################################################
 
 
 
