@@ -145,9 +145,9 @@ library(vegan)
 
 ### Las dos matrices grandes tienen un código compuesto que indica el estrato por forófito. Para el análisis, no se puede mantener como factor. Solucion: guardar la matriz en .txt con 2 cols de código: una en forma de factor y otra en forma del códifo de fila que se retuvo en la eliminación de filas compuestas de 0's. Más adelante, si se requiere, se puede usar el factor para etiquetar figuras.
 
- fichero <- read.table("lh.txt") # sims = 1000 (34x25)
-	sample_labs_lh <- fichero[,1]
-	fichero <- fichero[,-1]
+# fichero <- read.table("lh.txt") # sims = 1000 (34x25)
+#	sample_labs_lh <- fichero[,1]
+#	fichero <- fichero[,-1]
 
 # fichero <- read.table("ry.txt") #  sims = 1000 (36x21)
 #	sample_labs_ry <- fichero[,1]
@@ -197,16 +197,60 @@ Imagine(newdata6, col=c(0,1), order=TRUE, scores=1, fill=TRUE, xlab='Species', y
 # no lo hace bien
 #################################################################
 
+# 21/01/2019. Repetir la figura de las matrices para identificar los bloques clementsianos de forma manual.
+
+## 1. Abrir ficheros de matrices con los estratos clementsianos
+
+# fichero <- read.table("lh4.txt") # sims = 1000 (9x15)
+# fichero <- read.table("lh5.txt") # sims = 1000 (8x14)
+# fichero <- read.table("ry5.txt") # sims = 1000 (8x16) 
+
+# fichero <- read.table("lh.txt") # sims = 1000 (34x25)
+#	sample_labs_lh <- fichero[,1]
+#	fichero <- fichero[,-1]
+
+# fichero <- read.table("ry.txt") #  sims = 1000 (36x21)
+#	sample_labs_ry <- fichero[,1]
+#	fichero <- fichero[,-1]
+
+# fichero <- read.table("todo.txt") #  sims = 1000 (36x21)
+#	sample_labs_todo <- fichero[,1]
+#	fichero <- fichero[,-1]
+
+	## Tunear matriz
+
+	fichero[sapply(fichero, is.integer)] <- lapply(fichero[sapply(fichero, is.numeric)], as.numeric)
+	colnames(fichero)[1] <- ""
+
+	## Tests - Jani Heino recomienda r1 y quasiswap.
+
+	# Eje 1
+	eje1.r1 <- Metacommunity(comm=fichero, scores=1, method="r1", order=T, sims=1000, allowEmpty=F)
+	eje1.r1
+
+	# Eje 2
+	eje2.r1 <- Metacommunity(comm=fichero, scores=2, method="r1", order=T, sims=1000, allowEmpty=F)
+	eje2.r1
+
+	## edicion para figura
+	matriz <- eje1.r1$Comm
+	df <- as.data.frame(matriz)
+	spp <- names(df)
+
+	## explorar la matriz eje1.r1$Comm
+	# df2 <- df[order(rownames(df)),]
+
+	## Figura
+	Imagine(fichero, col=c(0,1), order=TRUE, scores=1, fill=TRUE, xlab='', ylab='Site (phoropyte)', yline=2, xline=2, sitenames=rownames(fichero), speciesnames=spp, binary=TRUE)
 
 
 
+## Ver el aspecto de un a matrizx gleasoniana
 
+# fichero <- read.table("ry2.txt") # Quasi-nested stochastic
+# fichero <- read.table("ry3.txt") #  Quasi-gleasonian
 
-
-
-
-
-
+# Las veo iguales a las otras...
 
 
 
