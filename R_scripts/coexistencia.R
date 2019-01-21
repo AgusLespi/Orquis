@@ -252,6 +252,12 @@ Imagine(newdata6, col=c(0,1), order=TRUE, scores=1, fill=TRUE, xlab='Species', y
 
 # Las veo iguales a las otras...
 
+###### hay que corregir la col de 1's
+# Opciones.
+	# ver si la primera col tiene nombre o no. Cambiarlo
+	# ver si el formato df o matrix influye
+	# ver si está tomando las etiquetas como fila de presencias. codificar con letras en lugar de números.
+
 
 
 
